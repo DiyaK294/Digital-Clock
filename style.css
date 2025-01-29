@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-box {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clock-box>p {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Pacifico, serif;
+}
+
+span {
+    font-size: 30px;
+}
